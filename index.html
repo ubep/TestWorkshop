@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>TestWorkshop writing tests in ePages6</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="Team Ocean HH">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/epages.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+				<section>
+					<h1>test-workshop</h1>
+					<p>
+						Team Ocean - Hamburg
+					</p>
+				</section>
+				<section>
+					<h2>Agenda</h2>
+					<ul>
+						<li>common testing terms</li>
+						<li>testing in epages 6</li>
+						<li>hands on</li>
+					</ul>
+				</section>
+				<section>
+					<h3>test phases</h3>
+					<ol>
+						<li>init</li>
+						<li>call</li>
+						<li>test</li>
+						<li>rollback</li>
+					</ol>
+				</section>
+				<section>
+					<section>
+						<h3>Test types</h3>
+						<ul>
+							<li>unit test</li>
+							<li>integration test</li>
+							<li>system-integration test</li>
+							<li>user-interface-test</li>
+							<li>test pyramide</li>
+						</ul>
+					</section>
+					<section>
+						<h3>unit test</h3>
+						<img data-src="img/unitTest.svg">
+					</section>
+					<section>
+						<h3>integration test</h3>
+						<img data-src="img/integrationsTest.svg">
+					</section>
+					<section>
+						<h3>system-integration test</h3>
+						<img data-src="img/systemintegrationsTest.svg">
+					</section>
+					<section>
+						<h3>user-interface-test</h3>
+						<img data-src="img/UITest.svg">
+					</section>
+					<section>
+						<h3>test pyramide</h3>
+						<img data-src="img/TestPyramide.svg">
+					</section>
+				</section>
+
+				<section>
+					<h3>mock and stub</h3>
+					<img data-src="img/mockvsstub.svg" border="0">
+				</section>
+
+				<section>
+					<section>
+						<h3>general unit-test smells</h3>
+						<p> a smell points to a possible Issue</p>
+					</section>
+					<section>
+						<h4>only test the code <b>you</b> currently write</h4>
+						<p> don't test: <p>
+						<ul>
+							<li>our core-libraries</li>
+							<li>external libraries</li>
+							<li>3rd Party webservices</li>
+							<li>SDK/API</li>
+						</ul>
+					</section>
+					<section>
+						<h4>more general</h4>
+						<ul>
+							<li>don't add logic into test</li>
+							<li>don't add logic into your code which you only need for testing</li>
+							<li>don't test <b>private methods</b></li>
+						</ul>
+					</section>
+				</section>
+<!-- ######################################### testing in ePages 6 ############################################ -->
+				<section>
+					<h1>testing in ePages 6</h1>
+				</section>
+				<section>
+					<section>
+					<h3>how to run tests in ePages 6</h3>
+						<ul>
+							<li>make test</li>
+							<li>make unit_test</li>
+							<li>make test_coverage</li>
+						</ul>
+					</section>
+					<section>
+					<h3>make test</h3>
+						<pre><code data-trim class="nohighlight">
+...
+compile_Cartridge.t ............................. ok
+ProfileExperienceId_si.t ........................ skipped: Cartridge DE_EPAGES::PayPalPlus does not exist.
+test_Cartridge.t ................................ ok
+unit/CreatePayment_RepositoryLineItem.t ......... ok
+...
+All tests successful.
+Files=19, Tests=260, 13 wallclock secs ( 0.07 usr  0.04 sys + 12.08 cusr  0.97 csys = 13.16 CPU)
+Result: PASS
+    					</code></pre>
+					</section>
+					<section>
+					<h3>make unit_test</h3>
+						<pre><code data-trim class="nohighlight">
+/srv/epages/eproot/Perl/bin/perl /srv/epages/eproot/Perl/bin/prove --jobs 9 t/unit 
+...
+t/unit/Webservice_RestService.t ................... ok
+t/unit/UI_PaymentMethodPayPalPlus.t ............... ok
+t/unit/UI_JSON.t .................................. ok
+t/unit/UI_Shop.t .................................. ok
+...
+All tests successful.
+Files=15, Tests=188,  4 wallclock secs ( 0.07 usr  0.03 sys + 11.27 cusr  1.08 csys = 12.45 CPU)
+Result: PASS
+    					</code></pre>
+					</section>
+					<section>
+					<h3>make test_coverage #1</h3>
+						<img data-src="img/generalView.png">
+					</section>
+					<section>
+					<h3>make test_coverage #2</h3>
+						<img data-src="img/detailsview.png">
+					</section>
+				</section>
+<!-- ######################################### injection techniques ############################################ -->
+				<section>
+					<section>
+						<h3>injection techniques</h3>
+						<ul>
+							<li>constructor with default value</li>
+							<li>wrapper</li>
+						</ul>
+					</section>
+					<section>
+						<h3>constructor with default value</h3>
+						<pre><code data-trim class="perl">
+package DE_EPAGES::Jaja::API::Genau;
+use DE_EPAGES::BlaBla;
+use strict;
+sub new {
+    my $class = shift;
+    my ($BlablaObject) = @_;
+    my $self  = bless {
+        'BlaBla' => $BlablaObject \\ DE_EPAGES::BlaBla->new();
+    }, $class;
+    return $self;
+}
+sub operate {
+    my $self = shift;
+    return $self->{'BlaBla'}->doMagic();
+}
+1;
+						</code></pre>
+					</section>
+					<section>
+						<h3>wrapper</h3>
+						<pre><code data-trim class="perl">
+package DE_EPAGES::Jaja::API::Genau;
+use DE_EPAGES::BlaBla;
+use strict;
+sub new {
+    my $class = shift;
+    return bless {}, $class;
+}
+sub operate {
+	my $self = shift;
+ 	my $BlaObject = $self->_createBlaBlaObject();
+	return $self->{'BlaBla'}->doMagic();
+}
+sub _createBlaBlaObject{
+	return DE_EPAGES::BlaBla->new();
+}
+1;
+						</code></pre>
+					</section>
+				</section>
+<!-- ######################################### function vs method ############################################ -->
+				<section>
+					<section>
+						<h3>function vs method</h3>
+					</section>
+					<section>
+						<h3>best to Test</h3>
+						<p>function / static method</p>
+						<pre><code data-trim class="perl">
+sub add {
+	my ($x, $y) = @_;
+	return $x + $y;
+}
+						</code></pre>
+					<img data-src="img/camel-unicorn.png" class="fragment">
+					</section>
+					<section>
+						<h3>worst to Test</h3>
+						<p>function / static method</p> <small>with dependencies</small>
+						
+						<pre><code data-trim class="perl">
+sub GetSessionTimeout {
+	my $System = LoadRootObject();
+	return $System->get('SessionTimeout');
+}
+						</code></pre>
+					</section>
+					<section>
+						<h3>Okay to Test</h3>
+						<p>method / member method</p>
+						<pre><code data-trim class="perl">
+package DE_EPAGES::Jaja::API::Genau;
+use strict;
+sub new {
+    my $class = shift;
+    my ($BlablaObject) = @_;
+    my $self  = bless {
+        'BlaBla' => $BlablaObject \\ DE_EPAGES::BlaBla->new();
+    }, $class;
+    return $self;
+}
+sub operate {
+    my $self = shift;
+    return $self->{'BlaBla'}->doMagic();
+}
+1;
+						</code></pre>
+					</section>
+				</section>
+
+<!-- ######################################### mocking in ePages 6 ############################################ -->
+				<section>
+					<section>
+						<h3>epages 6 business object</h3>
+						<p>ep6 object is a subset of perl object</p>
+					</section>
+					<section>
+						<h3>DAL - in a very small nutshell</h3>
+						<img data-src="img/DAL.svg">
+					</section>
+					<section>
+						<h3>use of business object</h3>
+						<pre><code data-trim class="perl">
+my $Shop->get('AttributeName');
+my $Shop->set({'AttributeName' => 'newValue'});
+						</code><pre>
+					</section>
+				</section>
+<!-- ######################################### from Mock::Extends to mockify ############################################ -->
+				<section>
+					<h3>from Mock::Extends to mockify</h3>
+					<p>live in eclipse</p>
+				</section>
+				<section>
+					<h3>hands on</h3>
+					<ol>
+						<li>testing perl classes</li>
+						<li>epages business classes</li>
+						<li>ui controller</li>
+						<li>hooks</li>
+					</ol>
+				</section>
+				<section>
+				</section>
+			</div>
+
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

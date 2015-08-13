@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="821.34998"
+   height="531.26001"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="mockvsstub.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective44" />
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path3846"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         id="path3843"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(1.1,0,0,1.1,1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path3834"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3828"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path3831"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="38.080613"
+     inkscape:cy="194.04551"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1004"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.277439,48.295898)">
+    <g
+       id="g2850"
+       transform="translate(6.49779,-5.4991416)">
+      <g
+         transform="matrix(1.1886428,0,0,1.1886428,-4.768407,-91.107679)"
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\mockvsstub.png"
+         id="g6204">
+        <rect
+           style="fill:#575757;fill-opacity:0.58823529;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect2985"
+           width="175.48256"
+           height="95.61898"
+           x="49.381763"
+           y="217.10468"
+           ry="28.284269"
+           inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\text6170.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150" />
+        <text
+           xml:space="preserve"
+           style="font-size:18.04498291px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+           x="92.685547"
+           y="276.82822"
+           id="text2987"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\text6170.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"><tspan
+             sodipodi:role="line"
+             id="tspan2989"
+             x="92.685547"
+             y="276.82822"
+             style="font-size:32px">mock</tspan></text>
+      </g>
+      <g
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\mockvsstub.png"
+         transform="matrix(1.1886428,0,0,1.1886428,114.09587,-91.107679)"
+         id="g6199">
+        <rect
+           ry="28.284269"
+           y="215.08437"
+           x="426.7515"
+           height="95.61898"
+           width="175.48256"
+           id="rect2991"
+           style="fill:#575757;fill-opacity:0.58823529;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\text6170.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text2993"
+           y="274.80792"
+           x="479.72714"
+           style="font-size:18.04498291px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+           xml:space="preserve"
+           inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\text6170.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"><tspan
+             y="274.80792"
+             x="479.72714"
+             id="tspan2995"
+             sodipodi:role="line"
+             style="font-size:32px">stub</tspan></text>
+      </g>
+      <g
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\mockvsstub.png"
+         transform="matrix(1.1886428,0,0,1.1886428,60.413351,-91.107679)"
+         id="g6188">
+        <rect
+           ry="28.284269"
+           y="386.345"
+           x="233.22952"
+           height="95.61898"
+           width="175.48256"
+           id="rect2997"
+           style="fill:#575757;fill-opacity:0.53461537;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\text6170.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text2999"
+           y="440.60565"
+           x="281.71005"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+           xml:space="preserve"
+           inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\text6170.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"><tspan
+             y="440.60565"
+             x="281.71005"
+             id="tspan3001"
+             sodipodi:role="line">unit-test</tspan></text>
+        <rect
+           style="fill:#575757;fill-opacity:0.53461537;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect3020"
+           width="175.48256"
+           height="95.61898"
+           x="233.22952"
+           y="46.270283"
+           ry="28.284269"
+           inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\text6170.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150" />
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+           x="302.09189"
+           y="100.60565"
+           id="text3022"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\text6170.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"><tspan
+             sodipodi:role="line"
+             id="tspan3024"
+             x="302.09189"
+             y="100.60565">SUT</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Lstart);marker-mid:none;marker-end:url(#Arrow2Lend)"
+           d="m 324.25896,368.48891 c 10e-6,-0.83127 0,-207.08127 0,-207.08127"
+           id="path3052"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\text6170.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150" />
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e40822;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+           x="213.63889"
+           y="-331.26749"
+           id="text6138"
+           sodipodi:linespacing="125%"
+           transform="matrix(0,1,-1,0,0,0)"
+           inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\text6170.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"><tspan
+             sodipodi:role="line"
+             id="tspan6140"
+             x="213.63889"
+             y="-331.26749">Verification</tspan></text>
+      </g>
+      <path
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\mockvsstub.png"
+         style="fill:none;stroke:#000000;stroke-width:2.97160697;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Lstart);marker-mid:none;marker-end:url(#Arrow2Lend)"
+         d="M 725.26361,151.17819 C 721.66148,85.139105 638.81244,22.702156 559.86573,20.300735"
+         id="path6142"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\mockvsstub.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6158"
+         d="M 158.52823,155.98103 C 166.93321,83.938397 228.16945,21.501447 320.62415,14.297182"
+         style="fill:none;stroke:#000000;stroke-width:2.97160697;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Lstart);marker-mid:none;marker-end:url(#Arrow2Lend)" />
+      <text
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\mockvsstub.png"
+         sodipodi:linespacing="125%"
+         id="text6160"
+         y="56.322044"
+         x="24.096922"
+         style="font-size:21.39557076px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+         xml:space="preserve"><tspan
+           y="56.322044"
+           x="24.096922"
+           id="tspan6162"
+           sodipodi:role="line">communication</tspan></text>
+      <text
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\mockvsstub.png"
+         xml:space="preserve"
+         style="font-size:21.39557076px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+         x="670.03094"
+         y="41.913521"
+         id="text6164"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan6166"
+           x="670.03094"
+           y="41.913521">communication</tspan></text>
+      <path
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\mockvsstub.png"
+         style="fill:none;stroke:#000000;stroke-width:2.97160697;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Lstart);marker-mid:none;marker-end:url(#Arrow2Lend)"
+         d="m 158.52823,293.95872 c 26.41564,73.24335 75.64477,124.8739 160.89522,134.47959"
+         id="path6168"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <text
+         inkscape:export-filename="C:\Users\cbreitkreutz.INTERN\Documents\Developerdays\mockvsstub.png"
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         xml:space="preserve"
+         style="font-size:21.39557076px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e40822;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+         x="85.085838"
+         y="410.38684"
+         id="text6170"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan6172"
+           x="85.085838"
+           y="410.38684">Verification</tspan></text>
+    </g>
+  </g>
+</svg>
