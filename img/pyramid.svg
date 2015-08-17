@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="142.43839"
-     inkscape:cy="94.777729"
+     inkscape:cx="292.18839"
+     inkscape:cy="114.77773"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -102,7 +102,7 @@
        transform="scale(-1,-1)" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96178991px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 610.05888,465.74857 -145.77129,0"
+       d="m 610.04847,465.74857 -145.77129,0"
        id="path4140-9"
        inkscape:connector-curvature="0" />
     <path
@@ -114,13 +114,13 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="415.67325"
-       y="391.7323"
+       y="395.7323"
        id="text4481"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4483"
          x="415.67325"
-         y="391.7323"
+         y="395.7323"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial">run time of test cases</tspan></text>
     <text
        xml:space="preserve"
@@ -136,19 +136,19 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial">number of test cases</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="298.17325"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="320.34732"
        y="454.99216"
        id="text4264"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="298.17325"
+         x="312.85098"
          y="454.99216"
          id="tspan4266"><tspan
-           x="298.17325"
+           x="312.85098"
            y="454.99216"
-           style="font-size:15px"
-           id="tspan4268">ESF</tspan></tspan></text>
+           style="font-size:15px;text-align:center;text-anchor:middle"
+           id="tspan4268">UI</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -167,18 +167,18 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="518.58429"
+       x="503.56232"
        y="440.11496"
        id="text4258"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="518.58429"
+         x="503.56232"
          y="440.11496"
          id="tspan4260"><tspan
-           x="518.58429"
+           x="503.56232"
            y="440.11496"
            style="font-size:15px"
-           id="tspan4262">ESF</tspan></tspan></text>
+           id="tspan4262">UI tests</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -197,20 +197,20 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="313.42139"
+       x="313.00113"
        y="497.61658"
        id="text4270-6"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="313.42139"
+         x="313.00113"
          y="497.61658"
          id="tspan4272-6"
          style="font-size:15px">integration</tspan><tspan
          sodipodi:role="line"
-         x="313.42139"
+         x="313.00113"
          y="516.36658"
          id="tspan4342"
-         style="font-size:15px">test</tspan></text>
+         style="font-size:15px">tests</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot4344"
@@ -221,7 +221,7 @@
            height="55.5"
            x="29"
            y="121.25446" /></flowRegion><flowPara
-         id="flowPara4350"></flowPara></flowRoot>    <text
+         id="flowPara4350" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="533.41217"
@@ -237,6 +237,6 @@
          x="533.41217"
          y="513.00623"
          id="tspan4342-0"
-         style="font-size:15px">test</tspan></text>
+         style="font-size:15px">tests</tspan></text>
   </g>
 </svg>
