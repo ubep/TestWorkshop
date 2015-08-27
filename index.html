@@ -220,7 +220,7 @@ sub new {
 sub operate {
 	my $self = shift;
  	my $BlaObject = $self->_createBlaBlaObject();
-	return $self->{'BlaBla'}->doMagic();
+	return $BlaObject->doMagic();
 }
 sub _createBlaBlaObject{
 	return DE_EPAGES::BlaBla->new();
