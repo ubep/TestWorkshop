@@ -62,7 +62,6 @@
 							<li>integration test</li>
 							<li>system-integration test</li>
 							<li>user-interface-test</li>
-							<li>test pyramid</li>
 						</ul>
 					</section>
 					<section>
@@ -81,6 +80,9 @@
 						<h3>user-interface-test</h3>
 						<img data-src="img/UITest.svg">
 					</section>
+				</section>
+
+				<section>
 					<section>
 						<h3>test pyramide</h3>
 						<img data-src="img/pyramid.svg" />
@@ -88,7 +90,7 @@
 						<i>Succeeding with Agile: Software Development Using Scrum</i> by Mike Cohn)</small>
 					</section>
 				</section>
-
+                
 				<section>
 					<h3>test phases</h3>
 					<ol>
@@ -294,9 +296,9 @@ sub operate {
 					<section>
 						<h3>use of business object</h3>
 						<pre><code data-trim class="perl">
-my $Shop->get('AttributeName');
-my $Shop->set({'AttributeName' => 'newValue'});
-						</code><pre>
+my $Attribute = $Shop->get('AttributeName');
+$Shop->set({'AttributeName' => 'newValue'});
+						</code></pre>
 					</section>
 				</section>
 <!-- ######################################### from Mock::Extends to mockify ############################################ -->
